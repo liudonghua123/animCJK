@@ -1,0 +1,31 @@
+<svg id="z20981" class="acjk" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+
+<style>
+<![CDATA[
+@keyframes zk { to { stroke-dashoffset:0; } }
+svg.acjk path[clip-path] {
+    --t:0.8s;
+    animation:zk var(--t) linear forwards var(--d);
+    stroke-dasharray:3337;
+    stroke-dashoffset:3339;
+    stroke-width:128;
+    stroke-linecap:round;
+    fill:none;
+}
+/* Low opacity for background improves visual overlap at intersections */
+svg.acjk .bg { fill:#ccc; opacity: 0.5; } 
+]]>
+</style>
+<defs>
+    <clipPath id="z20981c1"><path d="M 792 607 Q 503 619 285 667 Q 251 674 260 635 Q 267 536 275 433 Q 279 402 265 384 Q 244 362 213 345 Q 197 338 185 341 Q 170 348 182 372 Q 225 465 213 557 Q 204 647 169 687 Q 144 709 154 727 Q 167 748 189 762 Q 207 771 222 761 Q 268 710 601 664 Q 751 645 781 659 C 797 666 810 607 792 607 Z"/></clipPath>
+    <clipPath id="z20981c2"><path d="M 781 659 Q 781 680 804 725 Q 814 743 828 729 Q 855 698 854 602 Q 863 398 872 375 Q 873 366 877 360 Q 886 342 872 327 Q 850 311 811 291 Q 796 284 783 291 Q 774 295 778 311 Q 814 366 794 596 Q 793 600 792 607 C 785 642 785 642 781 659 Z"/></clipPath>
+</defs>
+<g id="bg-layer">
+    <path class="bg" d="M 792 607 Q 503 619 285 667 Q 251 674 260 635 Q 267 536 275 433 Q 279 402 265 384 Q 244 362 213 345 Q 197 338 185 341 Q 170 348 182 372 Q 225 465 213 557 Q 204 647 169 687 Q 144 709 154 727 Q 167 748 189 762 Q 207 771 222 761 Q 268 710 601 664 Q 751 645 781 659 C 797 666 810 607 792 607 Z"/>
+    <path class="bg" d="M 781 659 Q 781 680 804 725 Q 814 743 828 729 Q 855 698 854 602 Q 863 398 872 375 Q 873 366 877 360 Q 886 342 872 327 Q 850 311 811 291 Q 796 284 783 291 Q 774 295 778 311 Q 814 366 794 596 Q 793 600 792 607 C 785 642 785 642 781 659 Z"/>
+</g>
+<g id="anim-layer">
+    <path style="--d:1s; stroke:#FF4444;" pathLength="3333" clip-path="url(#z20981c1)" d="M 184 347 L 241 435 L 211 681 L 225 722 L 441 663 L 788 621"/>
+    <path style="--d:2s; stroke:#000;" pathLength="3333" clip-path="url(#z20981c2)" d="M 784 300 L 838 360 L 817 729"/>
+</g>
+</svg>

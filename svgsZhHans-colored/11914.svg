@@ -1,0 +1,31 @@
+<svg id="z11914" class="acjk" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+
+<style>
+<![CDATA[
+@keyframes zk { to { stroke-dashoffset:0; } }
+svg.acjk path[clip-path] {
+    --t:0.8s;
+    animation:zk var(--t) linear forwards var(--d);
+    stroke-dasharray:3337;
+    stroke-dashoffset:3339;
+    stroke-width:128;
+    stroke-linecap:round;
+    fill:none;
+}
+/* Low opacity for background improves visual overlap at intersections */
+svg.acjk .bg { fill:#ccc; opacity: 0.5; } 
+]]>
+</style>
+<defs>
+    <clipPath id="z11914c1"><path d="M 519 843 C 522 736 526 615 529 500 C 530 474 530 474 530 461 C 532 351 530 233 559 122 C 561 111 554 102 539 92 C 518 78 493 68 464 63 C 451 60 440 62 433 70 C 429 73 429 76 429 79 C 428 85 433 95 443 110 C 457 131 465 151 466 167 C 471 268 470 371 466 464 C 461 599 446 777 443 843 C 441 875 444 917 462 947 C 481 980 504 981 511 947 C 514 925 517 886 519 843 Z"/></clipPath>
+    <clipPath id="z11914c2"><path d="M 529 500 C 556 504 601 501 663 490 C 743 474 786 463 791 459 C 795 455 797 451 798 447 C 798 435 783 424 753 417 C 734 412 692 429 622 443 C 561 455 561 455 530 461 C 517 464 516 497 529 500 Z"/></clipPath>
+</defs>
+<g id="bg-layer">
+    <path class="bg" d="M 519 843 C 522 736 526 615 529 500 C 530 474 530 474 530 461 C 532 351 530 233 559 122 C 561 111 554 102 539 92 C 518 78 493 68 464 63 C 451 60 440 62 433 70 C 429 73 429 76 429 79 C 428 85 433 95 443 110 C 457 131 465 151 466 167 C 471 268 470 371 466 464 C 461 599 446 777 443 843 C 441 875 444 917 462 947 C 481 980 504 981 511 947 C 514 925 517 886 519 843 Z"/>
+    <path class="bg" d="M 529 500 C 556 504 601 501 663 490 C 743 474 786 463 791 459 C 795 455 797 451 798 447 C 798 435 783 424 753 417 C 734 412 692 429 622 443 C 561 455 561 455 530 461 C 517 464 516 497 529 500 Z"/>
+</g>
+<g id="anim-layer">
+    <path style="--d:1s; stroke:#FF4444;" pathLength="3333" clip-path="url(#z11914c1)" d="M 435 76 L 511 133 L 488 966"/>
+    <path style="--d:2s; stroke:#000;" pathLength="3333" clip-path="url(#z11914c2)" d="M 523 485 L 791 443"/>
+</g>
+</svg>

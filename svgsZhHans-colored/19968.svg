@@ -1,0 +1,28 @@
+<svg id="z19968" class="acjk" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+
+<style>
+<![CDATA[
+@keyframes zk { to { stroke-dashoffset:0; } }
+svg.acjk path[clip-path] {
+    --t:0.8s;
+    animation:zk var(--t) linear forwards var(--d);
+    stroke-dasharray:3337;
+    stroke-dashoffset:3339;
+    stroke-width:128;
+    stroke-linecap:round;
+    fill:none;
+}
+/* Low opacity for background improves visual overlap at intersections */
+svg.acjk .bg { fill:#ccc; opacity: 0.5; } 
+]]>
+</style>
+<defs>
+    <clipPath id="z19968c1"><path d="M 512 532 C 608 522 744 511 882 532 C 910 536 934 515 916 496 C 892 472 853 448 832 442 C 819 438 803 437 782 442 C 732 452 674 462 512 480 C 354 496 207 504 120 507 C 109 507 99 514 100 524 C 100 542 123 560 145 571 C 179 588 206 577 240 571 C 336 552 430 539 512 532 Z"/></clipPath>
+</defs>
+<g id="bg-layer">
+    <path class="bg" d="M 512 532 C 608 522 744 511 882 532 C 910 536 934 515 916 496 C 892 472 853 448 832 442 C 819 438 803 437 782 442 C 732 452 674 462 512 480 C 354 496 207 504 120 507 C 109 507 99 514 100 524 C 100 542 123 560 145 571 C 179 588 206 577 240 571 C 336 552 430 539 512 532 Z"/>
+</g>
+<g id="anim-layer">
+    <path style="--d:1s; stroke:#FF4444;" pathLength="3333" clip-path="url(#z19968c1)" d="M 106 521 L 202 541 L 795 481 L 918 507"/>
+</g>
+</svg>

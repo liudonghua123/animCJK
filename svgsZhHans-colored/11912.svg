@@ -1,0 +1,31 @@
+<svg id="z11912" class="acjk" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+
+<style>
+<![CDATA[
+@keyframes zk { to { stroke-dashoffset:0; } }
+svg.acjk path[clip-path] {
+    --t:0.8s;
+    animation:zk var(--t) linear forwards var(--d);
+    stroke-dasharray:3337;
+    stroke-dashoffset:3339;
+    stroke-width:128;
+    stroke-linecap:round;
+    fill:none;
+}
+/* Low opacity for background improves visual overlap at intersections */
+svg.acjk .bg { fill:#ccc; opacity: 0.5; } 
+]]>
+</style>
+<defs>
+    <clipPath id="z11912c1"><path d="M 436 442 C 470 412 500 377 531 348 C 545 335 540 315 512 286 C 496 269 481 260 468 258 C 455 257 450 266 454 282 C 457 296 452 318 437 344 C 411 390 335 483 225 575 C 214 584 207 589 207 594 C 208 599 212 603 218 601 C 256 594 314 549 417 458 C 430 447 430 447 436 442 Z"/></clipPath>
+    <clipPath id="z11912c2"><path d="M 532 661 C 604 579 654 509 728 456 C 740 447 743 439 733 429 C 723 418 703 405 673 389 C 667 386 645 392 608 401 C 504 428 446 440 436 442 C 428 444 410 454 417 458 C 454 480 519 462 547 458 C 571 455 627 437 610 472 C 590 514 556 575 499 661 C 455 725 512 683 532 661 Z"/></clipPath>
+</defs>
+<g id="bg-layer">
+    <path class="bg" d="M 436 442 C 470 412 500 377 531 348 C 545 335 540 315 512 286 C 496 269 481 260 468 258 C 455 257 450 266 454 282 C 457 296 452 318 437 344 C 411 390 335 483 225 575 C 214 584 207 589 207 594 C 208 599 212 603 218 601 C 256 594 314 549 417 458 C 430 447 430 447 436 442 Z"/>
+    <path class="bg" d="M 532 661 C 604 579 654 509 728 456 C 740 447 743 439 733 429 C 723 418 703 405 673 389 C 667 386 645 392 608 401 C 504 428 446 440 436 442 C 428 444 410 454 417 458 C 454 480 519 462 547 458 C 571 455 627 437 610 472 C 590 514 556 575 499 661 C 455 725 512 683 532 661 Z"/>
+</g>
+<g id="anim-layer">
+    <path style="--d:1s; stroke:#FF4444;" pathLength="3333" clip-path="url(#z11912c1)" d="M 463 264 L 493 313 L 481 346 L 343 495 L 216 591"/>
+    <path style="--d:2s; stroke:#000;" pathLength="3333" clip-path="url(#z11912c2)" d="M 425 456 L 625 423 L 686 453 L 488 686"/>
+</g>
+</svg>

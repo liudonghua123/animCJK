@@ -1,0 +1,34 @@
+<svg id="z20010" class="acjk" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+
+<style>
+<![CDATA[
+@keyframes zk { to { stroke-dashoffset:0; } }
+svg.acjk path[clip-path] {
+    --t:0.8s;
+    animation:zk var(--t) linear forwards var(--d);
+    stroke-dasharray:3337;
+    stroke-dashoffset:3339;
+    stroke-width:128;
+    stroke-linecap:round;
+    fill:none;
+}
+/* Low opacity for background improves visual overlap at intersections */
+svg.acjk .bg { fill:#ccc; opacity: 0.5; } 
+]]>
+</style>
+<defs>
+    <clipPath id="z20010c1"><path d="M 519 200 Q 531 176 551 156 Q 560 150 558 140 Q 557 130 543 116 Q 507 85 475 89 Q 465 92 468 105 Q 486 208 300 415 Q 296 418 293 422 Q 241 477 110 584 Q 100 588 112 592 Q 178 583 306 471 Q 387 396 505 221 C 514 207 514 207 519 200 Z"/></clipPath>
+    <clipPath id="z20010c2"><path d="M 505 221 Q 614 362 756 509 Q 777 533 812 531 Q 933 527 971 519 Q 983 516 984 511 Q 984 505 967 498 Q 790 444 742 405 Q 639 321 519 200 C 513 194 500 214 505 221 Z"/></clipPath>
+    <clipPath id="z20010c3"><path d="M 472 414 Q 500 459 475 747 Q 474 757 472 769 Q 471 797 467 809 Q 454 863 508 919 Q 509 920 512 922 Q 524 923 529 910 Q 535 892 536 808 Q 529 514 540 445 Q 541 432 535 426 Q 511 405 492 396 Q 479 392 470 400 Q 464 404 472 414 Z"/></clipPath>
+</defs>
+<g id="bg-layer">
+    <path class="bg" d="M 519 200 Q 531 176 551 156 Q 560 150 558 140 Q 557 130 543 116 Q 507 85 475 89 Q 465 92 468 105 Q 486 208 300 415 Q 296 418 293 422 Q 241 477 110 584 Q 100 588 112 592 Q 178 583 306 471 Q 387 396 505 221 C 514 207 514 207 519 200 Z"/>
+    <path class="bg" d="M 505 221 Q 614 362 756 509 Q 777 533 812 531 Q 933 527 971 519 Q 983 516 984 511 Q 984 505 967 498 Q 790 444 742 405 Q 639 321 519 200 C 513 194 500 214 505 221 Z"/>
+    <path class="bg" d="M 472 414 Q 500 459 475 747 Q 474 757 472 769 Q 471 797 467 809 Q 454 863 508 919 Q 509 920 512 922 Q 524 923 529 910 Q 535 892 536 808 Q 529 514 540 445 Q 541 432 535 426 Q 511 405 492 396 Q 479 392 470 400 Q 464 404 472 414 Z"/>
+</g>
+<g id="anim-layer">
+    <path style="--d:1s; stroke:#FF4444;" pathLength="3333" clip-path="url(#z20010c1)" d="M 476 95 L 512 150 L 397 334 L 287 459 L 116 585"/>
+    <path style="--d:2s; stroke:#FF4444;" pathLength="3333" clip-path="url(#z20010c2)" d="M 518 207 L 785 479 L 976 508"/>
+    <path style="--d:3s; stroke:#000;" pathLength="3333" clip-path="url(#z20010c3)" d="M 476 404 L 511 445 L 509 917"/>
+</g>
+</svg>

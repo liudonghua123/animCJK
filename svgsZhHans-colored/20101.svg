@@ -1,0 +1,28 @@
+<svg id="z20101" class="acjk" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+
+<style>
+<![CDATA[
+@keyframes zk { to { stroke-dashoffset:0; } }
+svg.acjk path[clip-path] {
+    --t:0.8s;
+    animation:zk var(--t) linear forwards var(--d);
+    stroke-dasharray:3337;
+    stroke-dashoffset:3339;
+    stroke-width:128;
+    stroke-linecap:round;
+    fill:none;
+}
+/* Low opacity for background improves visual overlap at intersections */
+svg.acjk .bg { fill:#ccc; opacity: 0.5; } 
+]]>
+</style>
+<defs>
+    <clipPath id="z20101c1"><path d="M 463 201 C 468 237 473 569 458 756 C 453 813 389 804 358 803 C 340 802 330 799 327 806 C 321 815 347 818 377 839 C 397 852 435 881 444 893 C 457 911 470 919 482 918 C 492 916 501 904 509 881 C 521 845 525 790 521 714 C 514 614 515 484 521 322 C 524 232 528 192 538 165 C 545 143 527 122 493 101 C 477 91 459 84 438 90 C 423 93 422 102 436 125 C 450 148 457 168 463 201 Z"/></clipPath>
+</defs>
+<g id="bg-layer">
+    <path class="bg" d="M 463 201 C 468 237 473 569 458 756 C 453 813 389 804 358 803 C 340 802 330 799 327 806 C 321 815 347 818 377 839 C 397 852 435 881 444 893 C 457 911 470 919 482 918 C 492 916 501 904 509 881 C 521 845 525 790 521 714 C 514 614 515 484 521 322 C 524 232 528 192 538 165 C 545 143 527 122 493 101 C 477 91 459 84 438 90 C 423 93 422 102 436 125 C 450 148 457 168 463 201 Z"/>
+</g>
+<g id="anim-layer">
+    <path style="--d:1s; stroke:#FF4444;" pathLength="3333" clip-path="url(#z20101c1)" d="M 431 97 L 498 166 L 487 795 L 458 869 L 332 807"/>
+</g>
+</svg>

@@ -1,0 +1,28 @@
+<svg id="z12743" class="acjk" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+
+<style>
+<![CDATA[
+@keyframes zk { to { stroke-dashoffset:0; } }
+svg.acjk path[clip-path] {
+    --t:0.8s;
+    animation:zk var(--t) linear forwards var(--d);
+    stroke-dasharray:3337;
+    stroke-dashoffset:3339;
+    stroke-width:128;
+    stroke-linecap:round;
+    fill:none;
+}
+/* Low opacity for background improves visual overlap at intersections */
+svg.acjk .bg { fill:#ccc; opacity: 0.5; } 
+]]>
+</style>
+<defs>
+    <clipPath id="z12743c1"><path d="M 603 588 C 642 533 700 425 728 336 C 738 304 754 277 778 257 C 792 244 794 231 781 222 C 764 208 739 203 719 196 C 699 189 668 197 617 214 C 520 244 429 258 349 265 C 335 266 325 266 324 271 C 320 279 327 293 346 305 C 365 318 400 318 450 303 C 572 264 639 251 655 254 C 661 255 669 260 667 274 C 647 380 618 455 557 546 C 472 671 324 753 214 809 C 202 815 198 820 206 824 C 209 826 222 825 241 819 C 390 763 521 700 603 588 Z"/></clipPath>
+</defs>
+<g id="bg-layer">
+    <path class="bg" d="M 603 588 C 642 533 700 425 728 336 C 738 304 754 277 778 257 C 792 244 794 231 781 222 C 764 208 739 203 719 196 C 699 189 668 197 617 214 C 520 244 429 258 349 265 C 335 266 325 266 324 271 C 320 279 327 293 346 305 C 365 318 400 318 450 303 C 572 264 639 251 655 254 C 661 255 669 260 667 274 C 647 380 618 455 557 546 C 472 671 324 753 214 809 C 202 815 198 820 206 824 C 209 826 222 825 241 819 C 390 763 521 700 603 588 Z"/>
+</g>
+<g id="anim-layer">
+    <path style="--d:1s; stroke:#FF4444;" pathLength="3333" clip-path="url(#z12743c1)" d="M 329 275 L 408 286 L 669 225 L 737 255 L 647 451 L 547 608 L 387 734 L 208 816"/>
+</g>
+</svg>

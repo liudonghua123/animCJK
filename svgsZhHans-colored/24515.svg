@@ -1,0 +1,37 @@
+<svg id="z24515" class="acjk" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+
+<style>
+<![CDATA[
+@keyframes zk { to { stroke-dashoffset:0; } }
+svg.acjk path[clip-path] {
+    --t:0.8s;
+    animation:zk var(--t) linear forwards var(--d);
+    stroke-dasharray:3337;
+    stroke-dashoffset:3339;
+    stroke-width:128;
+    stroke-linecap:round;
+    fill:none;
+}
+/* Low opacity for background improves visual overlap at intersections */
+svg.acjk .bg { fill:#ccc; opacity: 0.5; } 
+]]>
+</style>
+<defs>
+    <clipPath id="z24515c1"><path d="M 171 441 Q 147 519 112 589 Q 91 631 117 670 Q 129 691 152 673 Q 177 651 190 611 Q 211 556 208 508 Q 211 468 199 438 Q 192 428 185 428 Q 175 431 171 441 Z"/></clipPath>
+    <clipPath id="z24515c2"><path d="M 863 672 Q 859 657 834 638 Q 797 610 698 509 Q 691 502 685 502 Q 682 503 684 511 Q 708 562 732 619 Q 742 643 728 659 Q 689 692 550 674 Q 441 656 397 577 Q 370 523 355 465 Q 348 437 324 424 Q 306 414 299 422 Q 295 426 302 446 Q 312 471 335 537 Q 372 676 476 722 Q 495 729 521 737 Q 710 785 851 688 Q 866 679 863 672 Z"/></clipPath>
+    <clipPath id="z24515c3"><path d="M 441 283 Q 475 322 511 369 Q 524 385 541 387 Q 553 388 561 375 Q 568 359 564 326 Q 560 281 444 230 Q 428 223 420 225 Q 414 228 414 242 Q 415 255 441 283 Z"/></clipPath>
+    <clipPath id="z24515c4"><path d="M 760 315 Q 814 364 877 435 Q 896 459 914 463 Q 924 464 933 453 Q 948 437 932 386 Q 922 337 840 308 Q 789 287 761 279 Q 751 273 748 288 Q 747 304 760 315 Z"/></clipPath>
+</defs>
+<g id="bg-layer">
+    <path class="bg" d="M 171 441 Q 147 519 112 589 Q 91 631 117 670 Q 129 691 152 673 Q 177 651 190 611 Q 211 556 208 508 Q 211 468 199 438 Q 192 428 185 428 Q 175 431 171 441 Z"/>
+    <path class="bg" d="M 863 672 Q 859 657 834 638 Q 797 610 698 509 Q 691 502 685 502 Q 682 503 684 511 Q 708 562 732 619 Q 742 643 728 659 Q 689 692 550 674 Q 441 656 397 577 Q 370 523 355 465 Q 348 437 324 424 Q 306 414 299 422 Q 295 426 302 446 Q 312 471 335 537 Q 372 676 476 722 Q 495 729 521 737 Q 710 785 851 688 Q 866 679 863 672 Z"/>
+    <path class="bg" d="M 441 283 Q 475 322 511 369 Q 524 385 541 387 Q 553 388 561 375 Q 568 359 564 326 Q 560 281 444 230 Q 428 223 420 225 Q 414 228 414 242 Q 415 255 441 283 Z"/>
+    <path class="bg" d="M 760 315 Q 814 364 877 435 Q 896 459 914 463 Q 924 464 933 453 Q 948 437 932 386 Q 922 337 840 308 Q 789 287 761 279 Q 751 273 748 288 Q 747 304 760 315 Z"/>
+</g>
+<g id="anim-layer">
+    <path style="--d:1s; stroke:#FF4444;" pathLength="3333" clip-path="url(#z24515c1)" d="M 187 436 L 134 677"/>
+    <path style="--d:2s; stroke:#000;" pathLength="3333" clip-path="url(#z24515c2)" d="M 305 424 L 405 631 L 515 701 L 663 716 L 805 666 L 689 511"/>
+    <path style="--d:3s; stroke:#000;" pathLength="3333" clip-path="url(#z24515c3)" d="M 424 229 L 523 323 L 549 381"/>
+    <path style="--d:4s; stroke:#000;" pathLength="3333" clip-path="url(#z24515c4)" d="M 755 284 L 876 372 L 923 458"/>
+</g>
+</svg>
