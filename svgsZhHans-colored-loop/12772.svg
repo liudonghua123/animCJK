@@ -1,0 +1,37 @@
+<svg id="z12772" class="acjk" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+<style>
+<![CDATA[
+svg.acjk path[clip-path] {
+    animation-duration: 3.3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    stroke-dasharray: 3337;
+    stroke-dashoffset: 3339;
+    stroke-width: 128;
+    stroke-linecap: round;
+    fill: none;
+    stroke: #FF4444;
+}
+svg.acjk .bg { fill: #ccc; opacity: 0.5; }
+
+/* Stroke 1: Starts at 0.0%, finishes at 24.2%, holds until 24.2% */
+@keyframes zk1 {
+    0%, 0.0% { stroke-dashoffset: 3339; }
+    24.2%, 24.2% { stroke-dashoffset: 0; }
+    24.3%, 100% { stroke-dashoffset: 3339; }
+}
+svg.acjk #stroke-p1 { animation-name: zk1; }
+]]>
+</style>
+<defs>
+    <path id="p1" d="M 576 225 C 586 217 591 207 589 200 C 586 189 561 177 518 159 C 502 151 489 154 475 164 C 457 175 289 247 168 259 C 151 260 146 265 158 278 C 165 287 179 295 199 303 C 216 308 235 306 257 297 C 311 273 358 251 450 225 C 466 220 473 226 471 242 C 440 434 431 601 488 715 C 521 781 574 830 648 853 C 698 869 747 871 786 870 C 818 869 843 861 862 850 C 870 845 873 835 869 823 C 853 781 839 732 828 677 C 824 657 818 658 814 675 C 796 743 783 780 778 789 C 770 803 726 802 698 798 C 637 788 555 745 521 657 C 487 569 490 288 576 225 Z"/>
+
+    <clipPath id="z12772c1"><use href="#p1"/></clipPath>
+</defs>
+<g id="bg-layer" class="bg">
+<use href="#p1"/>
+</g>
+<g id="anim-layer">
+    <path id="stroke-p1" style="stroke:#FF4444" pathLength="3333" clip-path="url(#z12772c1)" d="M 156 267 L 234 276 L 479 189 L 525 208 L 473 506 L 484 624 L 524 722 L 629 811 L 775 833 L 826 808 L 821 671"/>
+</g>
+</svg>

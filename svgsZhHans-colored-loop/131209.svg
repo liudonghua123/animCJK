@@ -1,0 +1,48 @@
+<svg id="z131209" class="acjk" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+<style>
+<![CDATA[
+svg.acjk path[clip-path] {
+    animation-duration: 4.1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    stroke-dasharray: 3337;
+    stroke-dashoffset: 3339;
+    stroke-width: 128;
+    stroke-linecap: round;
+    fill: none;
+    stroke: #FF4444;
+}
+svg.acjk .bg { fill: #ccc; opacity: 0.5; }
+
+/* Stroke 1: Starts at 0.0%, finishes at 19.5%, holds until 39.0% */
+@keyframes zk1 {
+    0%, 0.0% { stroke-dashoffset: 3339; }
+    19.5%, 39.0% { stroke-dashoffset: 0; }
+    39.1%, 100% { stroke-dashoffset: 3339; }
+}
+svg.acjk #stroke-p1 { animation-name: zk1; }
+/* Stroke 2: Starts at 19.5%, finishes at 39.0%, holds until 39.0% */
+@keyframes zk2 {
+    0%, 19.5% { stroke-dashoffset: 3339; }
+    39.0%, 39.0% { stroke-dashoffset: 0; }
+    39.1%, 100% { stroke-dashoffset: 3339; }
+}
+svg.acjk #stroke-p2 { animation-name: zk2; }
+]]>
+</style>
+<defs>
+    <path id="p1" d="M 357 507 C 445 406 480 342 487 335 C 497 324 497 311 484 299 C 449 263 419 249 399 250 C 388 251 385 258 385 271 C 387 368 328 479 203 595 C 172 624 129 648 91 687 C 81 698 86 703 100 702 C 120 699 144 691 174 671 C 236 629 291 584 334 533 C 349 516 349 516 357 507 Z"/>
+    <path id="p2" d="M 334 533 C 359 558 404 567 468 554 C 677 511 677 511 782 489 C 824 480 847 471 852 466 C 860 458 863 451 858 444 C 852 433 834 424 808 417 C 780 411 753 416 725 426 C 680 442 584 466 534 478 C 480 491 421 500 357 507 C 346 509 325 526 334 533 Z"/>
+
+    <clipPath id="z131209c1"><use href="#p1"/></clipPath>
+    <clipPath id="z131209c2"><use href="#p2"/></clipPath>
+</defs>
+<g id="bg-layer" class="bg">
+<use href="#p1"/>
+<use href="#p2"/>
+</g>
+<g id="anim-layer">
+    <path id="stroke-p1" style="stroke:#FF4444" pathLength="3333" clip-path="url(#z131209c1)" d="M 393 257 L 440 330 L 362 453 L 246 587 L 92 694"/>
+    <path id="stroke-p2" style="stroke:#000" pathLength="3333" clip-path="url(#z131209c2)" d="M 338 523 L 421 530 L 856 449"/>
+</g>
+</svg>

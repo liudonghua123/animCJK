@@ -1,0 +1,48 @@
+<svg id="z20102" class="acjk" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+<style>
+<![CDATA[
+svg.acjk path[clip-path] {
+    animation-duration: 4.1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    stroke-dasharray: 3337;
+    stroke-dashoffset: 3339;
+    stroke-width: 128;
+    stroke-linecap: round;
+    fill: none;
+    stroke: #FF4444;
+}
+svg.acjk .bg { fill: #ccc; opacity: 0.5; }
+
+/* Stroke 1: Starts at 0.0%, finishes at 19.5%, holds until 39.0% */
+@keyframes zk1 {
+    0%, 0.0% { stroke-dashoffset: 3339; }
+    19.5%, 39.0% { stroke-dashoffset: 0; }
+    39.1%, 100% { stroke-dashoffset: 3339; }
+}
+svg.acjk #stroke-p1 { animation-name: zk1; }
+/* Stroke 2: Starts at 19.5%, finishes at 39.0%, holds until 39.0% */
+@keyframes zk2 {
+    0%, 19.5% { stroke-dashoffset: 3339; }
+    39.0%, 39.0% { stroke-dashoffset: 0; }
+    39.1%, 100% { stroke-dashoffset: 3339; }
+}
+svg.acjk #stroke-p2 { animation-name: zk2; }
+]]>
+</style>
+<defs>
+    <path id="p1" d="M 526 351 C 544 340 609 298 661 267 C 691 248 716 235 732 231 C 761 222 780 214 784 202 C 786 195 774 176 749 147 C 726 119 711 105 703 107 C 458 153 324 182 301 184 C 277 186 257 183 244 181 C 230 178 221 180 216 189 C 212 194 215 201 222 210 C 229 219 241 229 260 243 C 276 253 287 261 295 261 C 301 261 313 257 328 247 C 370 217 469 188 626 159 C 656 153 671 151 677 154 C 678 155 681 157 680 161 C 675 172 600 249 506 337 C 500 343 519 356 526 351 Z"/>
+    <path id="p2" d="M 506 337 C 484 322 470 314 461 312 C 452 310 447 316 448 333 C 448 344 456 354 471 367 C 499 389 519 428 525 483 C 540 639 531 738 506 774 C 498 784 476 780 469 779 C 436 774 413 767 383 759 C 369 755 363 758 363 764 C 362 766 393 791 456 850 C 471 863 483 882 496 903 C 501 910 510 911 518 908 C 528 903 544 887 563 858 C 598 802 605 668 585 464 C 583 444 579 428 577 415 C 571 385 551 368 526 351 C 513 342 513 342 506 337 Z"/>
+
+    <clipPath id="z20102c1"><use href="#p1"/></clipPath>
+    <clipPath id="z20102c2"><use href="#p2"/></clipPath>
+</defs>
+<g id="bg-layer" class="bg">
+<use href="#p1"/>
+<use href="#p2"/>
+</g>
+<g id="anim-layer">
+    <path id="stroke-p1" style="stroke:#FF4444" pathLength="3333" clip-path="url(#z20102c1)" d="M 221 191 L 299 222 L 693 133 L 728 191 L 511 341"/>
+    <path id="stroke-p2" style="stroke:#000" pathLength="3333" clip-path="url(#z20102c2)" d="M 456 320 L 534 396 L 550 442 L 554 758 L 501 856 L 369 762"/>
+</g>
+</svg>

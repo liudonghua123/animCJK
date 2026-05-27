@@ -1,0 +1,59 @@
+<svg id="z20065" class="acjk" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+<style>
+<![CDATA[
+svg.acjk path[clip-path] {
+    animation-duration: 4.9s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    stroke-dasharray: 3337;
+    stroke-dashoffset: 3339;
+    stroke-width: 128;
+    stroke-linecap: round;
+    fill: none;
+    stroke: #FF4444;
+}
+svg.acjk .bg { fill: #ccc; opacity: 0.5; }
+
+/* Stroke 1: Starts at 0.0%, finishes at 16.3%, holds until 49.0% */
+@keyframes zk1 {
+    0%, 0.0% { stroke-dashoffset: 3339; }
+    16.3%, 49.0% { stroke-dashoffset: 0; }
+    49.1%, 100% { stroke-dashoffset: 3339; }
+}
+svg.acjk #stroke-p1 { animation-name: zk1; }
+/* Stroke 2: Starts at 16.3%, finishes at 32.7%, holds until 49.0% */
+@keyframes zk2 {
+    0%, 16.3% { stroke-dashoffset: 3339; }
+    32.7%, 49.0% { stroke-dashoffset: 0; }
+    49.1%, 100% { stroke-dashoffset: 3339; }
+}
+svg.acjk #stroke-p2 { animation-name: zk2; }
+/* Stroke 3: Starts at 32.7%, finishes at 49.0%, holds until 49.0% */
+@keyframes zk3 {
+    0%, 32.7% { stroke-dashoffset: 3339; }
+    49.0%, 49.0% { stroke-dashoffset: 0; }
+    49.1%, 100% { stroke-dashoffset: 3339; }
+}
+svg.acjk #stroke-p3 { animation-name: zk3; }
+]]>
+</style>
+<defs>
+    <path id="p1" d="M 523 429 Q 447 426 383 425 Q 349 424 368 403 Q 464 274 551 181 Q 570 163 568 154 Q 567 138 526 97 Q 510 79 487 82 Q 474 83 480 102 Q 495 153 371 331 Q 344 373 292 409 Q 270 424 270 438 Q 273 460 288 482 Q 298 495 314 489 Q 354 471 484 459 Q 490 458 497 459 C 510 459 536 429 523 429 Z"/>
+    <path id="p2" d="M 608 604 Q 520 611 412 633 Q 381 642 403 618 Q 470 539 627 382 Q 664 342 695 320 Q 711 310 705 298 Q 695 274 659 249 Q 641 236 630 238 Q 618 241 619 259 Q 619 308 523 429 C 506 449 506 449 497 459 Q 343 627 310 640 Q 294 649 295 666 Q 295 682 323 706 Q 333 722 353 709 Q 450 658 595 628 C 604 627 617 604 608 604 Z"/>
+    <path id="p3" d="M 595 628 Q 517 767 316 890 Q 294 902 271 917 Q 261 924 268 928 Q 275 932 288 929 Q 369 908 440 864 Q 512 827 561 767 Q 615 712 673 609 Q 692 579 714 551 Q 724 542 720 530 Q 716 517 685 494 Q 663 478 652 478 Q 637 479 636 497 Q 633 549 608 604 C 599 620 599 620 595 628 Z"/>
+
+    <clipPath id="z20065c1"><use href="#p1"/></clipPath>
+    <clipPath id="z20065c2"><use href="#p2"/></clipPath>
+    <clipPath id="z20065c3"><use href="#p3"/></clipPath>
+</defs>
+<g id="bg-layer" class="bg">
+<use href="#p1"/>
+<use href="#p2"/>
+<use href="#p3"/>
+</g>
+<g id="anim-layer">
+    <path id="stroke-p1" style="stroke:#FF4444" pathLength="3333" clip-path="url(#z20065c1)" d="M 487 88 L 520 157 L 320 432 L 335 456 L 513 435"/>
+    <path id="stroke-p2" style="stroke:#000" pathLength="3333" clip-path="url(#z20065c2)" d="M 632 243 L 657 303 L 347 649 L 370 674 L 598 609"/>
+    <path id="stroke-p3" style="stroke:#000" pathLength="3333" clip-path="url(#z20065c3)" d="M 649 482 L 674 543 L 558 729 L 455 825 L 275 923"/>
+</g>
+</svg>

@@ -1,0 +1,48 @@
+<svg id="z196650" class="acjk" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+<style>
+<![CDATA[
+svg.acjk path[clip-path] {
+    animation-duration: 4.1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    stroke-dasharray: 3337;
+    stroke-dashoffset: 3339;
+    stroke-width: 128;
+    stroke-linecap: round;
+    fill: none;
+    stroke: #FF4444;
+}
+svg.acjk .bg { fill: #ccc; opacity: 0.5; }
+
+/* Stroke 1: Starts at 0.0%, finishes at 19.5%, holds until 39.0% */
+@keyframes zk1 {
+    0%, 0.0% { stroke-dashoffset: 3339; }
+    19.5%, 39.0% { stroke-dashoffset: 0; }
+    39.1%, 100% { stroke-dashoffset: 3339; }
+}
+svg.acjk #stroke-p1 { animation-name: zk1; }
+/* Stroke 2: Starts at 19.5%, finishes at 39.0%, holds until 39.0% */
+@keyframes zk2 {
+    0%, 19.5% { stroke-dashoffset: 3339; }
+    39.0%, 39.0% { stroke-dashoffset: 0; }
+    39.1%, 100% { stroke-dashoffset: 3339; }
+}
+svg.acjk #stroke-p2 { animation-name: zk2; }
+]]>
+</style>
+<defs>
+    <path id="p1" d="M 622 147 C 606 133 592 125 581 125 C 568 123 563 132 568 147 C 581 195 521 287 386 423 C 379 429 374 433 372 438 C 368 444 376 451 385 451 C 423 446 497 387 598 266 C 612 248 634 224 647 212 C 653 205 656 197 654 189 C 652 180 639 162 622 147 Z"/>
+    <path id="p2" d="M 641 482 C 636 550 593 628 531 700 C 455 786 358 833 263 888 C 242 899 265 910 286 905 C 475 850 597 738 682 603 C 694 583 709 565 726 547 C 731 540 735 532 733 525 C 729 514 711 498 692 481 C 676 468 666 462 658 463 C 647 463 641 470 641 482 Z"/>
+
+    <clipPath id="z196650c1"><use href="#p1"/></clipPath>
+    <clipPath id="z196650c2"><use href="#p2"/></clipPath>
+</defs>
+<g id="bg-layer" class="bg">
+<use href="#p1"/>
+<use href="#p2"/>
+</g>
+<g id="anim-layer">
+    <path id="stroke-p1" style="stroke:#FF4444" pathLength="3333" clip-path="url(#z196650c1)" d="M 575 132 L 607 198 L 462 377 L 377 440"/>
+    <path id="stroke-p2" style="stroke:#000" pathLength="3333" clip-path="url(#z196650c2)" d="M 654 466 L 683 530 L 565 706 L 444 809 L 260 896"/>
+</g>
+</svg>

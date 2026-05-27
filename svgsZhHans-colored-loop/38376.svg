@@ -1,0 +1,59 @@
+<svg id="z38376" class="acjk" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+<style>
+<![CDATA[
+svg.acjk path[clip-path] {
+    animation-duration: 4.9s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    stroke-dasharray: 3337;
+    stroke-dashoffset: 3339;
+    stroke-width: 128;
+    stroke-linecap: round;
+    fill: none;
+    stroke: #FF4444;
+}
+svg.acjk .bg { fill: #ccc; opacity: 0.5; }
+
+/* Stroke 1: Starts at 0.0%, finishes at 16.3%, holds until 49.0% */
+@keyframes zk1 {
+    0%, 0.0% { stroke-dashoffset: 3339; }
+    16.3%, 49.0% { stroke-dashoffset: 0; }
+    49.1%, 100% { stroke-dashoffset: 3339; }
+}
+svg.acjk #stroke-p1 { animation-name: zk1; }
+/* Stroke 2: Starts at 16.3%, finishes at 32.7%, holds until 49.0% */
+@keyframes zk2 {
+    0%, 16.3% { stroke-dashoffset: 3339; }
+    32.7%, 49.0% { stroke-dashoffset: 0; }
+    49.1%, 100% { stroke-dashoffset: 3339; }
+}
+svg.acjk #stroke-p2 { animation-name: zk2; }
+/* Stroke 3: Starts at 32.7%, finishes at 49.0%, holds until 49.0% */
+@keyframes zk3 {
+    0%, 32.7% { stroke-dashoffset: 3339; }
+    49.0%, 49.0% { stroke-dashoffset: 0; }
+    49.1%, 100% { stroke-dashoffset: 3339; }
+}
+svg.acjk #stroke-p3 { animation-name: zk3; }
+]]>
+</style>
+<defs>
+    <path id="p1" d="M 299 154 Q 359 245 388 249 Q 404 253 415 231 Q 419 215 409 189 Q 399 167 371 153 Q 328 126 308 121 Q 296 117 294 132 Q 291 142 299 154 Z"/>
+    <path id="p2" d="M 180 218 Q 205 278 204 350 Q 205 623 161 754 Q 139 817 178 862 Q 191 878 203 862 Q 242 820 244 657 Q 250 336 267 256 Q 270 235 251 224 Q 226 202 194 192 Q 184 189 176 199 Q 172 206 180 218 Z"/>
+    <path id="p3" d="M 519 151 Q 500 150 505 162 Q 512 175 537 188 Q 553 198 618 181 Q 732 145 754 183 Q 761 202 765 252 Q 783 495 769 772 Q 768 812 753 824 Q 738 834 666 815 Q 650 811 650 821 Q 651 828 664 836 Q 728 884 762 921 Q 784 942 797 939 Q 810 936 822 906 Q 838 860 837 790 Q 819 402 822 258 Q 822 215 835 191 Q 848 167 836 155 Q 826 139 775 113 Q 754 103 689 121 Q 598 142 519 151 Z"/>
+
+    <clipPath id="z38376c1"><use href="#p1"/></clipPath>
+    <clipPath id="z38376c2"><use href="#p2"/></clipPath>
+    <clipPath id="z38376c3"><use href="#p3"/></clipPath>
+</defs>
+<g id="bg-layer" class="bg">
+<use href="#p1"/>
+<use href="#p2"/>
+<use href="#p3"/>
+</g>
+<g id="anim-layer">
+    <path id="stroke-p1" style="stroke:#FF4444" pathLength="3333" clip-path="url(#z38376c1)" d="M 303 127 L 408 236"/>
+    <path id="stroke-p2" style="stroke:#000" pathLength="3333" clip-path="url(#z38376c2)" d="M 181 201 L 232 258 L 186 864"/>
+    <path id="stroke-p3" style="stroke:#000" pathLength="3333" clip-path="url(#z38376c3)" d="M 512 159 L 739 138 L 798 174 L 798 829 L 776 889 L 656 822"/>
+</g>
+</svg>

@@ -1,0 +1,48 @@
+<svg id="z21340" class="acjk" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+<style>
+<![CDATA[
+svg.acjk path[clip-path] {
+    animation-duration: 4.1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    stroke-dasharray: 3337;
+    stroke-dashoffset: 3339;
+    stroke-width: 128;
+    stroke-linecap: round;
+    fill: none;
+    stroke: #FF4444;
+}
+svg.acjk .bg { fill: #ccc; opacity: 0.5; }
+
+/* Stroke 1: Starts at 0.0%, finishes at 19.5%, holds until 39.0% */
+@keyframes zk1 {
+    0%, 0.0% { stroke-dashoffset: 3339; }
+    19.5%, 39.0% { stroke-dashoffset: 0; }
+    39.1%, 100% { stroke-dashoffset: 3339; }
+}
+svg.acjk #stroke-p1 { animation-name: zk1; }
+/* Stroke 2: Starts at 19.5%, finishes at 39.0%, holds until 39.0% */
+@keyframes zk2 {
+    0%, 19.5% { stroke-dashoffset: 3339; }
+    39.0%, 39.0% { stroke-dashoffset: 0; }
+    39.1%, 100% { stroke-dashoffset: 3339; }
+}
+svg.acjk #stroke-p2 { animation-name: zk2; }
+]]>
+</style>
+<defs>
+    <path id="p1" d="M 418 820 Q 406 859 436 932 Q 443 951 452 955 Q 459 962 467 953 Q 497 932 496 863 Q 495 811 497 333 Q 497 234 515 167 Q 525 151 521 135 Q 514 125 451 88 Q 426 69 402 87 Q 396 93 404 109 Q 434 151 441 248 Q 450 650 429 771 Q 425 795 418 820 Z"/>
+    <path id="p2" d="M 558 401 Q 657 452 780 529 Q 804 547 821 547 Q 831 546 837 533 Q 846 514 820 470 Q 783 407 551 367 Q 539 364 540 378 Q 544 394 558 401 Z"/>
+
+    <clipPath id="z21340c1"><use href="#p1"/></clipPath>
+    <clipPath id="z21340c2"><use href="#p2"/></clipPath>
+</defs>
+<g id="bg-layer" class="bg">
+<use href="#p1"/>
+<use href="#p2"/>
+</g>
+<g id="anim-layer">
+    <path id="stroke-p1" style="stroke:#FF4444" pathLength="3333" clip-path="url(#z21340c1)" d="M 406 88 L 475 155 L 455 953"/>
+    <path id="stroke-p2" style="stroke:#000" pathLength="3333" clip-path="url(#z21340c2)" d="M 548 374 L 745 460 L 829 540"/>
+</g>
+</svg>

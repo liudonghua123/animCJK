@@ -1,0 +1,48 @@
+<svg id="z21378" class="acjk" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+<style>
+<![CDATA[
+svg.acjk path[clip-path] {
+    animation-duration: 4.1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    stroke-dasharray: 3337;
+    stroke-dashoffset: 3339;
+    stroke-width: 128;
+    stroke-linecap: round;
+    fill: none;
+    stroke: #FF4444;
+}
+svg.acjk .bg { fill: #ccc; opacity: 0.5; }
+
+/* Stroke 1: Starts at 0.0%, finishes at 19.5%, holds until 39.0% */
+@keyframes zk1 {
+    0%, 0.0% { stroke-dashoffset: 3339; }
+    19.5%, 39.0% { stroke-dashoffset: 0; }
+    39.1%, 100% { stroke-dashoffset: 3339; }
+}
+svg.acjk #stroke-p1 { animation-name: zk1; }
+/* Stroke 2: Starts at 19.5%, finishes at 39.0%, holds until 39.0% */
+@keyframes zk2 {
+    0%, 19.5% { stroke-dashoffset: 3339; }
+    39.0%, 39.0% { stroke-dashoffset: 0; }
+    39.1%, 100% { stroke-dashoffset: 3339; }
+}
+svg.acjk #stroke-p2 { animation-name: zk2; }
+]]>
+</style>
+<defs>
+    <path id="p1" d="M 408 228 C 440 235 570 212 684 191 C 766 175 858 157 865 151 C 891 126 848 107 827 105 C 796 100 749 109 684 126 C 622 141 425 182 381 179 C 362 179 390 224 408 228 Z"/>
+    <path id="p2" d="M 381 179 C 351 159 325 151 306 158 C 291 163 291 172 301 186 C 321 215 328 263 330 298 C 338 517 256 774 117 900 C 96 918 101 926 119 918 C 331 815 381 522 398 298 C 400 263 404 237 408 228 C 415 211 396 190 381 179 Z"/>
+
+    <clipPath id="z21378c1"><use href="#p1"/></clipPath>
+    <clipPath id="z21378c2"><use href="#p2"/></clipPath>
+</defs>
+<g id="bg-layer" class="bg">
+<use href="#p1"/>
+<use href="#p2"/>
+</g>
+<g id="anim-layer">
+    <path id="stroke-p1" style="stroke:#FF4444" pathLength="3333" clip-path="url(#z21378c1)" d="M 383 185 L 453 200 L 869 135"/>
+    <path id="stroke-p2" style="stroke:#000" pathLength="3333" clip-path="url(#z21378c2)" d="M 301 168 L 365 229 L 330 561 L 236 788 L 110 914"/>
+</g>
+</svg>

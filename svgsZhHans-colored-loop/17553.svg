@@ -1,0 +1,59 @@
+<svg id="z17553" class="acjk" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+<style>
+<![CDATA[
+svg.acjk path[clip-path] {
+    animation-duration: 4.9s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    stroke-dasharray: 3337;
+    stroke-dashoffset: 3339;
+    stroke-width: 128;
+    stroke-linecap: round;
+    fill: none;
+    stroke: #FF4444;
+}
+svg.acjk .bg { fill: #ccc; opacity: 0.5; }
+
+/* Stroke 1: Starts at 0.0%, finishes at 16.3%, holds until 49.0% */
+@keyframes zk1 {
+    0%, 0.0% { stroke-dashoffset: 3339; }
+    16.3%, 49.0% { stroke-dashoffset: 0; }
+    49.1%, 100% { stroke-dashoffset: 3339; }
+}
+svg.acjk #stroke-p1 { animation-name: zk1; }
+/* Stroke 2: Starts at 16.3%, finishes at 32.7%, holds until 49.0% */
+@keyframes zk2 {
+    0%, 16.3% { stroke-dashoffset: 3339; }
+    32.7%, 49.0% { stroke-dashoffset: 0; }
+    49.1%, 100% { stroke-dashoffset: 3339; }
+}
+svg.acjk #stroke-p2 { animation-name: zk2; }
+/* Stroke 3: Starts at 32.7%, finishes at 49.0%, holds until 49.0% */
+@keyframes zk3 {
+    0%, 32.7% { stroke-dashoffset: 3339; }
+    49.0%, 49.0% { stroke-dashoffset: 0; }
+    49.1%, 100% { stroke-dashoffset: 3339; }
+}
+svg.acjk #stroke-p3 { animation-name: zk3; }
+]]>
+</style>
+<defs>
+    <path id="p1" d="M 357 382 C 371 400 418 461 441 469 C 470 479 486 445 474 421 C 452 377 386 342 360 337 C 329 330 339 359 357 382 Z"/>
+    <path id="p2" d="M 536 530 C 673 397 698 372 725 355 C 738 346 741 334 732 325 C 721 312 700 298 682 290 C 659 280 633 276 635 305 C 636 351 612 381 510 533 C 506 540 529 535 536 530 Z"/>
+    <path id="p3" d="M 491 575 C 567 565 716 560 918 560 C 932 560 941 557 945 551 C 949 542 944 526 933 517 C 890 484 849 479 806 489 C 738 504 643 517 536 530 C 519 532 519 532 510 533 C 394 546 261 559 128 574 C 113 575 111 582 122 595 C 131 604 141 614 156 622 C 169 628 183 626 196 623 C 300 597 393 587 491 575 Z"/>
+
+    <clipPath id="z17553c1"><use href="#p1"/></clipPath>
+    <clipPath id="z17553c2"><use href="#p2"/></clipPath>
+    <clipPath id="z17553c3"><use href="#p3"/></clipPath>
+</defs>
+<g id="bg-layer" class="bg">
+<use href="#p1"/>
+<use href="#p2"/>
+<use href="#p3"/>
+</g>
+<g id="anim-layer">
+    <path id="stroke-p1" style="stroke:#FF4444" pathLength="3333" clip-path="url(#z17553c1)" d="M 348 345 L 468 460"/>
+    <path id="stroke-p2" style="stroke:#FF4444" pathLength="3333" clip-path="url(#z17553c2)" d="M 645 288 L 681 344 L 518 530"/>
+    <path id="stroke-p3" style="stroke:#000" pathLength="3333" clip-path="url(#z17553c3)" d="M 124 586 L 173 598 L 832 522 L 941 533"/>
+</g>
+</svg>

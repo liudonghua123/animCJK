@@ -1,0 +1,37 @@
+<svg id="z12743" class="acjk" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+<style>
+<![CDATA[
+svg.acjk path[clip-path] {
+    animation-duration: 3.3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    stroke-dasharray: 3337;
+    stroke-dashoffset: 3339;
+    stroke-width: 128;
+    stroke-linecap: round;
+    fill: none;
+    stroke: #FF4444;
+}
+svg.acjk .bg { fill: #ccc; opacity: 0.5; }
+
+/* Stroke 1: Starts at 0.0%, finishes at 24.2%, holds until 24.2% */
+@keyframes zk1 {
+    0%, 0.0% { stroke-dashoffset: 3339; }
+    24.2%, 24.2% { stroke-dashoffset: 0; }
+    24.3%, 100% { stroke-dashoffset: 3339; }
+}
+svg.acjk #stroke-p1 { animation-name: zk1; }
+]]>
+</style>
+<defs>
+    <path id="p1" d="M 603 588 C 642 533 700 425 728 336 C 738 304 754 277 778 257 C 792 244 794 231 781 222 C 764 208 739 203 719 196 C 699 189 668 197 617 214 C 520 244 429 258 349 265 C 335 266 325 266 324 271 C 320 279 327 293 346 305 C 365 318 400 318 450 303 C 572 264 639 251 655 254 C 661 255 669 260 667 274 C 647 380 618 455 557 546 C 472 671 324 753 214 809 C 202 815 198 820 206 824 C 209 826 222 825 241 819 C 390 763 521 700 603 588 Z"/>
+
+    <clipPath id="z12743c1"><use href="#p1"/></clipPath>
+</defs>
+<g id="bg-layer" class="bg">
+<use href="#p1"/>
+</g>
+<g id="anim-layer">
+    <path id="stroke-p1" style="stroke:#FF4444" pathLength="3333" clip-path="url(#z12743c1)" d="M 329 275 L 408 286 L 669 225 L 737 255 L 647 451 L 547 608 L 387 734 L 208 816"/>
+</g>
+</svg>

@@ -1,0 +1,92 @@
+<svg id="z20852" class="acjk" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+<style>
+<![CDATA[
+svg.acjk path[clip-path] {
+    animation-duration: 7.300000000000001s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    stroke-dasharray: 3337;
+    stroke-dashoffset: 3339;
+    stroke-width: 128;
+    stroke-linecap: round;
+    fill: none;
+    stroke: #FF4444;
+}
+svg.acjk .bg { fill: #ccc; opacity: 0.5; }
+
+/* Stroke 1: Starts at 0.0%, finishes at 11.0%, holds until 65.8% */
+@keyframes zk1 {
+    0%, 0.0% { stroke-dashoffset: 3339; }
+    11.0%, 65.8% { stroke-dashoffset: 0; }
+    65.9%, 100% { stroke-dashoffset: 3339; }
+}
+svg.acjk #stroke-p1 { animation-name: zk1; }
+/* Stroke 2: Starts at 11.0%, finishes at 21.9%, holds until 65.8% */
+@keyframes zk2 {
+    0%, 11.0% { stroke-dashoffset: 3339; }
+    21.9%, 65.8% { stroke-dashoffset: 0; }
+    65.9%, 100% { stroke-dashoffset: 3339; }
+}
+svg.acjk #stroke-p2 { animation-name: zk2; }
+/* Stroke 3: Starts at 21.9%, finishes at 32.9%, holds until 65.8% */
+@keyframes zk3 {
+    0%, 21.9% { stroke-dashoffset: 3339; }
+    32.9%, 65.8% { stroke-dashoffset: 0; }
+    65.9%, 100% { stroke-dashoffset: 3339; }
+}
+svg.acjk #stroke-p3 { animation-name: zk3; }
+/* Stroke 4: Starts at 32.9%, finishes at 43.8%, holds until 65.8% */
+@keyframes zk4 {
+    0%, 32.9% { stroke-dashoffset: 3339; }
+    43.8%, 65.8% { stroke-dashoffset: 0; }
+    65.9%, 100% { stroke-dashoffset: 3339; }
+}
+svg.acjk #stroke-p4 { animation-name: zk4; }
+/* Stroke 5: Starts at 43.8%, finishes at 54.8%, holds until 65.8% */
+@keyframes zk5 {
+    0%, 43.8% { stroke-dashoffset: 3339; }
+    54.8%, 65.8% { stroke-dashoffset: 0; }
+    65.9%, 100% { stroke-dashoffset: 3339; }
+}
+svg.acjk #stroke-p5 { animation-name: zk5; }
+/* Stroke 6: Starts at 54.8%, finishes at 65.8%, holds until 65.8% */
+@keyframes zk6 {
+    0%, 54.8% { stroke-dashoffset: 3339; }
+    65.8%, 65.8% { stroke-dashoffset: 0; }
+    65.9%, 100% { stroke-dashoffset: 3339; }
+}
+svg.acjk #stroke-p6 { animation-name: zk6; }
+]]>
+</style>
+<defs>
+    <path id="p1" d="M 234 322 C 258 344 285 369 313 398 C 322 407 331 413 343 413 C 351 413 357 408 361 399 C 365 389 364 373 359 352 C 352 322 309 294 231 271 C 220 267 212 266 208 269 C 203 271 202 277 204 286 C 205 294 216 305 234 322 Z"/>
+    <path id="p2" d="M 405 214 C 431 240 457 269 486 300 C 493 308 502 314 512 315 C 518 315 524 311 529 303 C 533 294 532 280 529 260 C 525 241 513 222 488 207 C 462 191 434 179 405 168 C 395 164 387 163 384 165 C 380 166 379 172 379 181 C 379 187 388 198 405 214 Z"/>
+    <path id="p3" d="M 586 484 C 646 398 693 302 754 218 C 763 204 767 199 762 190 C 753 176 739 161 716 144 C 704 135 692 132 678 137 C 669 139 671 144 672 156 C 676 241 645 291 552 488 C 547 498 579 493 586 484 Z"/>
+    <path id="p4" d="M 504 536 C 679 521 792 519 841 523 C 907 527 931 527 943 526 C 955 524 955 510 941 497 C 893 451 847 442 803 453 C 753 464 680 472 586 484 C 563 487 563 487 552 488 C 386 507 250 524 98 526 C 88 526 82 529 82 538 C 81 546 87 556 100 566 C 129 588 157 592 183 587 C 286 563 404 544 504 536 Z"/>
+    <path id="p5" d="M 348 635 C 341 683 283 755 173 850 C 158 862 160 864 180 863 C 226 858 295 817 378 727 C 385 719 410 694 429 673 C 436 664 439 656 438 649 C 435 639 424 632 405 626 C 382 618 367 616 359 619 C 353 620 349 625 348 635 Z"/>
+    <path id="p6" d="M 585 634 C 640 691 702 758 766 842 C 778 857 788 869 801 874 C 807 876 813 872 821 865 C 831 854 832 832 826 797 C 817 749 738 682 590 596 C 582 591 578 593 576 604 C 573 614 576 625 585 634 Z"/>
+
+    <clipPath id="z20852c1"><use href="#p1"/></clipPath>
+    <clipPath id="z20852c2"><use href="#p2"/></clipPath>
+    <clipPath id="z20852c3"><use href="#p3"/></clipPath>
+    <clipPath id="z20852c4"><use href="#p4"/></clipPath>
+    <clipPath id="z20852c5"><use href="#p5"/></clipPath>
+    <clipPath id="z20852c6"><use href="#p6"/></clipPath>
+</defs>
+<g id="bg-layer" class="bg">
+<use href="#p1"/>
+<use href="#p2"/>
+<use href="#p3"/>
+<use href="#p4"/>
+<use href="#p5"/>
+<use href="#p6"/>
+</g>
+<g id="anim-layer">
+    <path id="stroke-p1" style="stroke:#FF4444" pathLength="3333" clip-path="url(#z20852c1)" d="M 210 278 L 325 359 L 340 409"/>
+    <path id="stroke-p2" style="stroke:#FF4444" pathLength="3333" clip-path="url(#z20852c2)" d="M 386 174 L 476 239 L 519 309"/>
+    <path id="stroke-p3" style="stroke:#FF4444" pathLength="3333" clip-path="url(#z20852c3)" d="M 679 144 L 716 206 L 559 485"/>
+    <path id="stroke-p4" style="stroke:#000" pathLength="3333" clip-path="url(#z20852c4)" d="M 87 537 L 172 556 L 827 485 L 946 516"/>
+    <path id="stroke-p5" style="stroke:#000" pathLength="3333" clip-path="url(#z20852c5)" d="M 358 625 L 388 659 L 358 701 L 259 803 L 169 858"/>
+    <path id="stroke-p6" style="stroke:#000" pathLength="3333" clip-path="url(#z20852c6)" d="M 583 601 L 773 782 L 805 870"/>
+</g>
+</svg>

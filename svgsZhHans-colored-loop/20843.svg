@@ -1,0 +1,48 @@
+<svg id="z20843" class="acjk" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+<style>
+<![CDATA[
+svg.acjk path[clip-path] {
+    animation-duration: 4.1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    stroke-dasharray: 3337;
+    stroke-dashoffset: 3339;
+    stroke-width: 128;
+    stroke-linecap: round;
+    fill: none;
+    stroke: #FF4444;
+}
+svg.acjk .bg { fill: #ccc; opacity: 0.5; }
+
+/* Stroke 1: Starts at 0.0%, finishes at 19.5%, holds until 39.0% */
+@keyframes zk1 {
+    0%, 0.0% { stroke-dashoffset: 3339; }
+    19.5%, 39.0% { stroke-dashoffset: 0; }
+    39.1%, 100% { stroke-dashoffset: 3339; }
+}
+svg.acjk #stroke-p1 { animation-name: zk1; }
+/* Stroke 2: Starts at 19.5%, finishes at 39.0%, holds until 39.0% */
+@keyframes zk2 {
+    0%, 19.5% { stroke-dashoffset: 3339; }
+    39.0%, 39.0% { stroke-dashoffset: 0; }
+    39.1%, 100% { stroke-dashoffset: 3339; }
+}
+svg.acjk #stroke-p2 { animation-name: zk2; }
+]]>
+</style>
+<defs>
+    <path id="p1" d="M 317 435 C 318 519 277 600 155 710 C 143 720 104 750 79 774 C 69 783 72 788 85 787 C 101 785 122 778 146 763 C 220 715 283 650 325 595 C 353 556 380 521 406 491 C 414 481 415 470 404 459 C 372 427 346 414 329 416 C 320 416 316 423 317 435 Z"/>
+    <path id="p2" d="M 446 213 C 487 246 509 271 530 323 C 611 523 650 625 711 710 C 724 728 776 747 958 759 C 974 760 983 758 984 754 C 984 750 977 744 963 737 C 825 666 729 588 675 504 C 639 447 598 365 551 256 C 537 225 514 205 483 198 C 460 192 447 193 445 198 C 440 204 441 209 446 213 Z"/>
+
+    <clipPath id="z20843c1"><use href="#p1"/></clipPath>
+    <clipPath id="z20843c2"><use href="#p2"/></clipPath>
+</defs>
+<g id="bg-layer" class="bg">
+<use href="#p1"/>
+<use href="#p2"/>
+</g>
+<g id="anim-layer">
+    <path id="stroke-p1" style="stroke:#FF4444" pathLength="3333" clip-path="url(#z20843c1)" d="M 325 426 L 361 483 L 315 562 L 207 690 L 84 780"/>
+    <path id="stroke-p2" style="stroke:#000" pathLength="3333" clip-path="url(#z20843c2)" d="M 447 203 L 527 262 L 647 522 L 741 659 L 805 699 L 978 751"/>
+</g>
+</svg>

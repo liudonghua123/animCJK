@@ -1,0 +1,81 @@
+<svg id="z34916" class="acjk" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+<style>
+<![CDATA[
+svg.acjk path[clip-path] {
+    animation-duration: 6.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    stroke-dasharray: 3337;
+    stroke-dashoffset: 3339;
+    stroke-width: 128;
+    stroke-linecap: round;
+    fill: none;
+    stroke: #FF4444;
+}
+svg.acjk .bg { fill: #ccc; opacity: 0.5; }
+
+/* Stroke 1: Starts at 0.0%, finishes at 12.3%, holds until 61.5% */
+@keyframes zk1 {
+    0%, 0.0% { stroke-dashoffset: 3339; }
+    12.3%, 61.5% { stroke-dashoffset: 0; }
+    61.6%, 100% { stroke-dashoffset: 3339; }
+}
+svg.acjk #stroke-p1 { animation-name: zk1; }
+/* Stroke 2: Starts at 12.3%, finishes at 24.6%, holds until 61.5% */
+@keyframes zk2 {
+    0%, 12.3% { stroke-dashoffset: 3339; }
+    24.6%, 61.5% { stroke-dashoffset: 0; }
+    61.6%, 100% { stroke-dashoffset: 3339; }
+}
+svg.acjk #stroke-p2 { animation-name: zk2; }
+/* Stroke 3: Starts at 24.6%, finishes at 36.9%, holds until 61.5% */
+@keyframes zk3 {
+    0%, 24.6% { stroke-dashoffset: 3339; }
+    36.9%, 61.5% { stroke-dashoffset: 0; }
+    61.6%, 100% { stroke-dashoffset: 3339; }
+}
+svg.acjk #stroke-p3 { animation-name: zk3; }
+/* Stroke 4: Starts at 36.9%, finishes at 49.2%, holds until 61.5% */
+@keyframes zk4 {
+    0%, 36.9% { stroke-dashoffset: 3339; }
+    49.2%, 61.5% { stroke-dashoffset: 0; }
+    61.6%, 100% { stroke-dashoffset: 3339; }
+}
+svg.acjk #stroke-p4 { animation-name: zk4; }
+/* Stroke 5: Starts at 49.2%, finishes at 61.5%, holds until 61.5% */
+@keyframes zk5 {
+    0%, 49.2% { stroke-dashoffset: 3339; }
+    61.5%, 61.5% { stroke-dashoffset: 0; }
+    61.6%, 100% { stroke-dashoffset: 3339; }
+}
+svg.acjk #stroke-p5 { animation-name: zk5; }
+]]>
+</style>
+<defs>
+    <path id="p1" d="M 480 138 Q 517 165 557 197 Q 573 210 589 207 Q 601 206 605 192 Q 609 176 597 145 Q 582 109 471 88 Q 455 85 448 89 Q 442 93 445 107 Q 449 117 480 138 Z"/>
+    <path id="p2" d="M 519 374 Q 443 530 268 701 Q 253 711 256 715 Q 259 718 272 712 Q 357 669 461 547 C 474 530 474 530 481 521 Q 512 476 549 421 Q 583 364 632 327 Q 648 315 635 301 Q 616 285 587 276 Q 565 267 548 279 Q 455 345 302 351 Q 290 350 288 357 Q 285 367 299 377 Q 335 401 367 396 Q 379 392 393 386 Q 519 329 526 340 Q 533 350 519 374 Z"/>
+    <path id="p3" d="M 461 547 Q 480 599 481 636 Q 481 741 464 816 Q 454 858 483 900 Q 484 903 487 905 Q 503 920 514 895 Q 527 858 527 817 Q 526 642 530 602 Q 537 577 528 568 Q 492 526 481 521 C 472 514 457 537 461 547 Z"/>
+    <path id="p4" d="M 593 541 Q 642 498 669 482 Q 682 478 678 470 Q 674 460 658 447 Q 643 435 628 435 Q 618 436 619 450 Q 620 465 576 535 C 573 540 588 545 593 541 Z"/>
+    <path id="p5" d="M 576 535 Q 573 532 567 531 Q 557 528 552 530 Q 548 531 549 541 Q 550 548 569 564 Q 599 589 631 620 Q 640 629 651 628 Q 658 628 662 619 Q 665 609 660 589 Q 656 570 627 554 Q 611 547 593 541 C 587 539 581 539 576 535 Z"/>
+
+    <clipPath id="z34916c1"><use href="#p1"/></clipPath>
+    <clipPath id="z34916c2"><use href="#p2"/></clipPath>
+    <clipPath id="z34916c3"><use href="#p3"/></clipPath>
+    <clipPath id="z34916c4"><use href="#p4"/></clipPath>
+    <clipPath id="z34916c5"><use href="#p5"/></clipPath>
+</defs>
+<g id="bg-layer" class="bg">
+<use href="#p1"/>
+<use href="#p2"/>
+<use href="#p3"/>
+<use href="#p4"/>
+<use href="#p5"/>
+</g>
+<g id="anim-layer">
+    <path id="stroke-p1" style="stroke:#FF4444" pathLength="3333" clip-path="url(#z34916c1)" d="M 452 94 L 556 151 L 597 200"/>
+    <path id="stroke-p2" style="stroke:#FF4444" pathLength="3333" clip-path="url(#z34916c2)" d="M 295 360 L 369 370 L 549 306 L 590 331 L 421 563 L 261 710"/>
+    <path id="stroke-p3" style="stroke:#000" pathLength="3333" clip-path="url(#z34916c3)" d="M 477 526 L 505 601 L 495 905"/>
+    <path id="stroke-p4" style="stroke:#000" pathLength="3333" clip-path="url(#z34916c4)" d="M 629 438 L 643 476 L 581 535"/>
+    <path id="stroke-p5" style="stroke:#000" pathLength="3333" clip-path="url(#z34916c5)" d="M 555 537 L 654 623"/>
+</g>
+</svg>

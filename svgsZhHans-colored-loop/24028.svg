@@ -1,0 +1,48 @@
+<svg id="z24028" class="acjk" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+<style>
+<![CDATA[
+svg.acjk path[clip-path] {
+    animation-duration: 4.1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    stroke-dasharray: 3337;
+    stroke-dashoffset: 3339;
+    stroke-width: 128;
+    stroke-linecap: round;
+    fill: none;
+    stroke: #FF4444;
+}
+svg.acjk .bg { fill: #ccc; opacity: 0.5; }
+
+/* Stroke 1: Starts at 0.0%, finishes at 19.5%, holds until 39.0% */
+@keyframes zk1 {
+    0%, 0.0% { stroke-dashoffset: 3339; }
+    19.5%, 39.0% { stroke-dashoffset: 0; }
+    39.1%, 100% { stroke-dashoffset: 3339; }
+}
+svg.acjk #stroke-p1 { animation-name: zk1; }
+/* Stroke 2: Starts at 19.5%, finishes at 39.0%, holds until 39.0% */
+@keyframes zk2 {
+    0%, 19.5% { stroke-dashoffset: 3339; }
+    39.0%, 39.0% { stroke-dashoffset: 0; }
+    39.1%, 100% { stroke-dashoffset: 3339; }
+}
+svg.acjk #stroke-p2 { animation-name: zk2; }
+]]>
+</style>
+<defs>
+    <path id="p1" d="M 266 563 C 260 572 256 580 257 590 C 257 598 263 605 274 612 C 316 635 372 712 438 844 C 446 861 451 871 459 874 C 465 876 474 876 480 869 C 505 834 494 794 473 766 C 424 701 375 646 323 605 C 311 595 305 583 314 567 C 353 489 388 422 414 364 C 432 321 448 284 466 256 C 476 238 477 227 467 216 C 429 178 407 160 397 163 C 383 166 380 173 386 189 C 416 274 358 415 266 563 Z"/>
+    <path id="p2" d="M 531 516 C 523 527 514 537 515 550 C 515 558 522 566 533 573 C 578 599 640 684 715 832 C 724 850 730 861 738 864 C 744 866 753 866 759 858 C 785 821 774 780 753 751 C 698 676 642 613 584 566 C 572 556 566 543 575 526 C 667 346 697 282 722 239 C 732 220 734 208 723 197 C 685 157 662 138 651 141 C 637 143 633 152 639 168 C 668 250 596 418 531 516 Z"/>
+
+    <clipPath id="z24028c1"><use href="#p1"/></clipPath>
+    <clipPath id="z24028c2"><use href="#p2"/></clipPath>
+</defs>
+<g id="bg-layer" class="bg">
+<use href="#p1"/>
+<use href="#p2"/>
+</g>
+<g id="anim-layer">
+    <path id="stroke-p1" style="stroke:#FF4444" pathLength="3333" clip-path="url(#z24028c1)" d="M 392 171 L 432 248 L 283 586 L 447 787 L 472 871"/>
+    <path id="stroke-p2" style="stroke:#000" pathLength="3333" clip-path="url(#z24028c2)" d="M 643 149 L 685 232 L 543 547 L 693 723 L 750 860"/>
+</g>
+</svg>
